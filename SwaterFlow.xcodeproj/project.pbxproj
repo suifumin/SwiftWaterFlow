@@ -14,6 +14,10 @@
 		32969E7921C77BC600C1BE47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32969E7721C77BC600C1BE47 /* LaunchScreen.storyboard */; };
 		32969E8421C77BC600C1BE47 /* SwaterFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32969E8321C77BC600C1BE47 /* SwaterFlowTests.swift */; };
 		32969E8F21C77BC600C1BE47 /* SwaterFlowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32969E8E21C77BC600C1BE47 /* SwaterFlowUITests.swift */; };
+		32969E9D21C77C0C00C1BE47 /* WaterFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32969E9C21C77C0C00C1BE47 /* WaterFlow.swift */; };
+		32969E9F21C7901000C1BE47 /* dataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32969E9E21C7901000C1BE47 /* dataModel.swift */; };
+		32969EA121C7A77900C1BE47 /* test.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32969EA021C7A77900C1BE47 /* test.plist */; };
+		32969EA321C8959F00C1BE47 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32969EA221C8959F00C1BE47 /* MyCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		32969E8A21C77BC600C1BE47 /* SwaterFlowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwaterFlowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32969E8E21C77BC600C1BE47 /* SwaterFlowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwaterFlowUITests.swift; sourceTree = "<group>"; };
 		32969E9021C77BC600C1BE47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32969E9C21C77C0C00C1BE47 /* WaterFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterFlow.swift; sourceTree = "<group>"; };
+		32969E9E21C7901000C1BE47 /* dataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataModel.swift; sourceTree = "<group>"; };
+		32969EA021C7A77900C1BE47 /* test.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = test.plist; sourceTree = "<group>"; };
+		32969EA221C8959F00C1BE47 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +105,12 @@
 		32969E6D21C77BC300C1BE47 /* SwaterFlow */ = {
 			isa = PBXGroup;
 			children = (
+				32969EA021C7A77900C1BE47 /* test.plist */,
 				32969E6E21C77BC300C1BE47 /* AppDelegate.swift */,
 				32969E7021C77BC300C1BE47 /* ViewController.swift */,
+				32969EA221C8959F00C1BE47 /* MyCollectionViewCell.swift */,
+				32969E9C21C77C0C00C1BE47 /* WaterFlow.swift */,
+				32969E9E21C7901000C1BE47 /* dataModel.swift */,
 				32969E7221C77BC300C1BE47 /* Main.storyboard */,
 				32969E7521C77BC600C1BE47 /* Assets.xcassets */,
 				32969E7721C77BC600C1BE47 /* LaunchScreen.storyboard */,
@@ -229,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32969EA121C7A77900C1BE47 /* test.plist in Resources */,
 				32969E7921C77BC600C1BE47 /* LaunchScreen.storyboard in Resources */,
 				32969E7621C77BC600C1BE47 /* Assets.xcassets in Resources */,
 				32969E7421C77BC300C1BE47 /* Main.storyboard in Resources */,
@@ -256,6 +269,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32969E9D21C77C0C00C1BE47 /* WaterFlow.swift in Sources */,
+				32969EA321C8959F00C1BE47 /* MyCollectionViewCell.swift in Sources */,
+				32969E9F21C7901000C1BE47 /* dataModel.swift in Sources */,
 				32969E7121C77BC300C1BE47 /* ViewController.swift in Sources */,
 				32969E6F21C77BC300C1BE47 /* AppDelegate.swift in Sources */,
 			);
