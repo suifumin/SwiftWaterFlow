@@ -16,9 +16,9 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SwiftWaterFlow"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.3"
   spec.summary      = "swift 版本瀑布流布局"
-
+  spec.swift_versions      = "4.0"
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
