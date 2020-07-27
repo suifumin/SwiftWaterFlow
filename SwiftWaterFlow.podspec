@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SwiftWaterFlow"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.1"
   spec.summary      = "swift 版本瀑布流布局"
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-			简单瀑布流布局
+		SwiftwaterFlow是一个简单的瀑布流布局控件
                    DESC
 
   spec.homepage     = "https://github.com/suifumin/SwiftWaterFlow.git"
@@ -133,6 +133,6 @@ Pod::Spec.new do |spec|
    spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-   spec.dependency "JSONKit", "~> 1.4"
+  # spec.dependency "JSONKit", "~> 1.4"
 
 end
