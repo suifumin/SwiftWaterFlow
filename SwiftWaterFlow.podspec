@@ -16,9 +16,9 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SwiftWaterFlow"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.6"
   spec.summary      = "swift 版本瀑布流布局"
-
+  
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
@@ -40,7 +40,7 @@ Pod::Spec.new do |spec|
   #
 
   #spec.license      = "MIT (example)"
-   spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+   spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
